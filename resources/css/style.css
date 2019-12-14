@@ -36,19 +36,43 @@ header #academy{
     display: inline-block;
     vertical-align: middle;
 }
-nav{
+.desktopnav{
     display: inline;
     vertical-align: middle;
 }
 
-nav ul{
+.desktopnav ul{
     float: right;
     display: inline;
     margin-right: 24px;
 }
-nav ul li{
+.desktopnav ul li{
     display: inline;
     margin-left: 16px;
+}
+
+.mobileNav{
+    display:none;
+}
+
+@media only screen and (max-width: 660px){
+    .desktoptext{
+        display: none;
+    }
+    .desktopnav{
+        display: none;
+    }
+    .mobileNav {
+        display:flex;
+        justify-content: space-around;
+        height:100%;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    .logo, #logo{
+        display:none;
+    }
 }
 
 /* Main Section Starts Here */
