@@ -1,0 +1,139 @@
+html{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Info Here */
+header{
+    height: 64px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+header .logo{
+    height: 32px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+
+header #logo{
+    height: 32px;
+    vertical-align: middle;
+}
+
+header #colmar{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header #academy{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav{
+    display: inline;
+    vertical-align: middle;
+}
+
+nav ul{
+    float: right;
+    display: inline;
+    margin-right: 24px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 16px;
+}
+
+/* Main Section Starts Here */
+.learn{
+    display: flex;
+    background-color: lightgrey;
+    padding: 32px 0;
+    width: 100%;
+}
+
+.banner {
+    width: 60%;
+    padding: 0 32px;
+}
+.banner img{
+    max-width: 100%;
+    display: flex;
+}
+
+.learncopy{
+    color: gray;
+    float: right;
+    max-height: 100%;
+    width: 40%;
+}
+
+.learncopy h1{
+    font-size: 40px;
+    color: rgb(75, 74, 74);
+    padding-top: 0;
+}
+
+.learncopy h2{
+    color: rgb(75, 74, 74);
+    padding-bottom: 20px;
+}
+
+#startbutton{
+    background-color: rgb(75, 74, 74);
+    padding: 8px 20px;
+}
+
+#startbutton a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Section 2 Starts Here*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    padding: 32px 0;
+}
+
+.practicing{
+    width: 60%;
+    padding: 0 32px;
+}
+
+.practicing img{
+    max-width: 100%;
+}
+
+.itemlist{
+    border-left: 1px solid lightgrey;
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.item{
+    width:100%;
+    border: 1px lightgrey solid;
+
+}
+
+.itemlist img{
+    width: 35%;
+    height: auto;
+    display: inline;
+    padding-right: 10px;
+}
+
+.itemlistcopy{
+    max-width: 60%;
+    display: inline-block;
+}
